@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="slogan">Chào mừng bạn đến với trang web của tôi</div>
+    </div>
+
+    
+
+    <nav class="main-menu">
+        <a class="menu-children" href="index.html">Trang chủ</a>
+        <a class="menu-children" href="infomation.html">Thông tin</a>
+        <a class="menu-children" href="study.html">Kết quả học tập</a>
+        <a class="menu-children" href="gallery.html">Gallery</a>
+    </nav>
+
+   
+
+        <div class="center-bar">
+            <section class="main-content">
+                <h1 class="title">Thông Tin Cá Nhân</h1>
+                <form action="#" method="POST" class="info-form">
+                    <div class="form-group">
+                        <label for="ho">Họ:</label>
+                        <input type="text" id="ho" name="ho" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ten">Tên:</label>
+                        <input type="text" id="ten" name="ten" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gioi_tinh">Giới tính:</label>
+                        <select id="gioi_tinh" name="gioi_tinh" required>
+                            <option value="">Chọn giới tính</option>
+                            <option value="nam">Nam</option>
+                            <option value="nu">Nữ</option>
+                            <option value="khac">Khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="truong_dh">Trường đại học:</label>
+                        <input type="text" id="truong_dh" name="truong_dh"  required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ma_sv">Mã sinh viên:</label>
+                        <input type="text" id="ma_sv" name="ma_sv" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sdt">Số điện thoại:</label>
+                        <input type="tel" id="sdt" name="sdt" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="so_thich">Sở thích:</label>
+                        <textarea id="so_thich" name="so_thich" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="que_quan">Quê quán:</label>
+                        <input type="text" id="que_quan" name="que_quan" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chuyen_nganh">Chuyên ngành học:</label>
+                        <input type="text" id="chuyen_nganh" name="chuyen_nganh" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ngon_ngu">Ngôn ngữ chuyên dùng:</label>
+                        <input type="text" id="ngon_ngu" name="ngon_ngu" required>
+                    </div>
+                </form>
+        </div>
+        </section>
+    </div>
+    </div>
+
+<button  id="submit">Submit</button>
+
+
+   
+    <footer class="footer">
+        <br>Thông tin người lập trang web: Nguyễn Hoàng Tú</p>
+        <p>Thời gian publish: Feb 27, 2025</p>
+        Liên hệ:
+            SĐT: 0373836890
+            <br>Facebook:Hoàng Tú </br>
+            Zalo: 0373836890
+        </p>    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
